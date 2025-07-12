@@ -45,7 +45,7 @@ htdocs/
 
 Below is a screenshot of the website interface:
 
-![Screenshot]("C:\Users\Jawah\Downloads\Roshn Saudi league.jpg")
+![Screenshot](https://github.com/JawaherMQ5/xampp/blob/main/Roshn%20Saudi%20league.jpg)
 
 
 
