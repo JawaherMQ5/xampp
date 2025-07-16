@@ -64,4 +64,70 @@ Below is a screenshot of the website interface:
 | 2016-2017  | Al-Hilal     |
 | 2015-2016  | Al-Ahli      |
 
+### CODE
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>الدوري السعودي - آخر 10 مواسم</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            direction: rtl;
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #006c35;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            padding: 12px 16px;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #006c35;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>أبطال الدوري السعودي - آخر 10 سنوات</h1>
+
+    <table>
+        <tr>
+            <th>الموسم</th>
+            <th>النادي الفائز</th>
+        </tr>
+        <tr><td>2024-2025</td><td>الاتحاد</td></tr>
+        <tr><td>2023-2024</td><td>الهلال</td></tr>
+        <tr><td>2022-2023</td><td>الاتحاد</td></tr>
+        <tr><td>2021-2022</td><td>الهلال</td></tr>
+        <tr><td>2020-2021</td><td>الهلال</td></tr>
+        <tr><td>2019-2020</td><td>الهلال</td></tr>
+        <tr><td>2018-2019</td><td>النصر</td></tr>
+        <tr><td>2017-2018</td><td>الهلال</td></tr>
+        <tr><td>2016-2017</td><td>الهلال</td></tr>
+        <tr><td>2015-2016</td><td>الأهلي</td></tr>
+    </table>
+
+</body>
+</html>
 
